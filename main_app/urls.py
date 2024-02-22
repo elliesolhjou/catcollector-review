@@ -5,5 +5,6 @@ from . import views
 urlpatterns = [
     # name is the route - in this case  ' ' - name 
     #  path takes kwargs like name and args
-    path('', views.home, name='home')
+    path('', views.home, name='home'),
+    path('about/', views.about, name='about')
 ]

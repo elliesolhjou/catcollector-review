@@ -19,4 +19,4 @@ def cat_index(request):
     context={
         'cats': cats
     }
-    return render (request, 'cat-index.html', context)
+    return render (request, 'cat_index.html', context)

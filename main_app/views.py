@@ -9,7 +9,7 @@ cats = [
 # controller in Express = view in django
 # Create your views here.
 def home(request):
-    return True
+    return render (request, 'home.html')
 
 
 def about(request):
